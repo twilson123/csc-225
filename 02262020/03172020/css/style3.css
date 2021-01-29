@@ -1,0 +1,13 @@
+.box{
+    background-image: url(../img/art.jpg);
+    padding: 100px;
+    margin: 100px;
+    background-size: cover;
+    background-position: center;
+    
+}
+body{
+    background-color: lightgreen;
+    font-family: arial;
+}
+

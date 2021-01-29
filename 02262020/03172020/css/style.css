@@ -1,0 +1,29 @@
+body{
+    background-color: lightskyblue;
+    font-family: arial;
+}
+h1{
+    font-size: 18px;
+}
+a{
+    color: purple;
+    text-decoration: underline;
+}
+a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+b{
+    color: red;
+    font-size: 20px;
+}
+.box{
+    background-image: url(../img/beach.jpg);
+    padding: 100px;
+    margin: 100px;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+}
+
+

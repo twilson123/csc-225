@@ -1,0 +1,27 @@
+li{
+    display: inline;
+}
+
+a:hover{
+    color:#ff6347;
+    text-decoration: none;
+    border-bottom: 0px solid;
+} 
+
+p{
+    text-decoration: underline;
+}
+
+p{
+    font-style: bold;
+}
+
+p{
+    font-style: italic;
+}
+footer{
+ 
+    vertical-align: middle;
+   
+}
+

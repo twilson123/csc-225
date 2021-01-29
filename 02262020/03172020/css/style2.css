@@ -1,0 +1,15 @@
+.box{
+    background-image: url(../img/food.jpg);
+    padding: 100px;
+    margin: 100px;
+    background-size: cover;
+    background-position: center;
+    
+}
+body{
+    background-color: lightyellow;
+    font-family: arial;
+}
+label{
+     color: darkslategrey;
+}
