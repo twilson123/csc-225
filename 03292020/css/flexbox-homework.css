@@ -1,0 +1,154 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+.movie {
+    padding:25px;
+    background:#3c342b;
+    color:goldenrod;
+    margin-bottom:25px;
+}
+
+.container{
+    display: flex;
+    flex-flow: column;  
+}
+
+.movie:nth-of-type(1){
+    order: 4;
+    background:#3c342b;
+    color:goldenrod;
+}
+
+.movie:nth-of-type(2){
+    order:1;
+    background: goldenrod;
+    color:#3c342b;
+}
+
+.movie:nth-of-type(3){
+    order: 7;
+    background: goldenrod;
+    color:#3c342b;
+}
+
+.movie:nth-of-type(4){
+    order: 6;
+    background:#3c342b;
+    color:goldenrod;
+}
+
+.movie:nth-of-type(5){
+    order: 3;
+    background: goldenrod;
+    color:#3c342b;
+}
+
+.movie:nth-of-type(6){
+    order: 8;
+    background:#3c342b;
+    color:goldenrod;
+}
+
+.movie:nth-of-type(7){
+    order: 10;
+    background:#3c342b;
+    color:goldenrod;
+}
+
+.movie:nth-of-type(8){
+    order: 5;
+    background: goldenrod;
+    color:#3c342b;
+}
+
+.movie:nth-of-type(9){
+    order: 9;
+    background: goldenrod;
+    color:#3c342b;
+}
+
+.movie:nth-of-type(10){
+    order: 2;
+    background:#3c342b;
+    color:goldenrod;
+}
+
+@media screen and (max-width:768px){
+    .column{
+        width: 100%;
+    }
+}
+
+.container{
+   display: flex;
+   flex-flow: column-reverse;
+}
+
+.movie:nth-of-type(1){
+    order: 4;
+    background: goldenrod;
+    color:#3c342b;
+}
+
+.movie:nth-of-type(2){
+    order:1;
+    background:#3c342b;
+    color:goldenrod;
+}
+
+.movie:nth-of-type(3){
+    order: 7;
+    background:#3c342b;
+    color:goldenrod;
+}
+
+.movie:nth-of-type(4){
+    order: 6;
+    background: goldenrod;
+    color:#3c342b;
+}
+
+.movie:nth-of-type(5){
+    order: 3;
+    background:#3c342b;
+    color:goldenrod;
+}
+
+.movie:nth-of-type(6){
+    order: 8;
+    background: goldenrod;
+    color:#3c342b;
+}
+
+.movie:nth-of-type(7){
+    order: 10;
+    background: goldenrod;
+    color:#3c342b;
+}
+
+.movie:nth-of-type(8){
+    order: 5;
+    background:#3c342b;
+    color:goldenrod;
+}
+
+.movie:nth-of-type(9){
+    order: 9;
+    background:#3c342b;
+    color:goldenrod;
+}
+
+.movie:nth-of-type(10){
+    order: 2;
+    background: goldenrod;
+    color:#3c342b;
+}
+
+
+
+
